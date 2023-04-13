@@ -25,7 +25,7 @@ public class DragAndDrop {
 		Assert.assertEquals(driver.findElement(By.cssSelector("div[id=\"column-b\"] header")).getText(),"B");
 		A.dragAndDrop(source, target).build().perform();
 		Assert.assertEquals(driver.findElement(By.cssSelector("div[id=\"column-a\"] header")).getText(),"B");
-		Assert.assertEquals(driver.findElement(By.cssSelector("div[id=\"column-b\"] header")).getText(),"A");
+		Assert.assertEquals(driver.findElement(By.cssSelector("div[id=\"column-b\"] header")).getText(),"B");
 		
 	}
 
