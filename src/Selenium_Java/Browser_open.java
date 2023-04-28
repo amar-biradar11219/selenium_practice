@@ -10,11 +10,11 @@ public class Browser_open {
 			// TODO Auto-generated method stub
 			
 			WebDriver driver = new ChromeDriver();
-			System.setProperty("WebDriver.chrome.driver","C://driver/chromedriver.exe");
+			System.setProperty("WebDriver.chrome.driver","C:\\Users\\amar.biradar\\Desktop\\drivers\\chromedriver.exe");
 			driver.get("https://ecommerce-playground.lambdatest.io/index.php?route=common/home");
 			System.out.println(driver.getTitle());
 			System.out.println(driver.getCurrentUrl());
-			driver.close();
+//			driver.close();
 					
 			
 			
